@@ -1,0 +1,175 @@
+                             PROJECT 2: IDENTIFYING THREATS AND VULNERABILITIES IN AN INFRASTRUCTURE
+
+1. IDENTIFYING THE DIFFERENT DOMAINS IN MY PLACE OF RESIDENCE
+
+-Physical Security Domain
+-Network/Internet Domain
+-Devices and Equipment Domain
+-Electrical/Power Domain
+-People/Occupants Domain
+-Access Control Domain
+-Information/Data Domain
+-Physical Hazard Domain
+
+2. IDENTIFYING ALL POSSIBLE THREATS THAT CAN HARM MY RESIDENCE AND THE PEOPLE IN IT
+The possible threats to my residence include:
+- Burglary and theft
+- Unauthorized access
+- Cyberattacks
+- Malware and viruses
+- Wi-Fi/network attacks
+- Data theft
+- Fire outbreak
+- Electrical faults
+- Power surges
+- Generator-related accidents
+- Cooking gas leakage or explosion
+- Damage to electronic devices
+- Water leakage or flooding
+- Physical injury
+- Natural disasters such as heavy rain and storms
+
+3. IDENTIFYING THE VULNERABILITIES THAT EXIST IN MY RESIDENCE PER DOMAIN
+Physical Security Domain
+- Doors and gates can still be targeted by intruders.
+- Windows can be damaged despite having burglar proof.
+- CCTV and alarm systems depend on electricity and proper maintenance.
+Network/Internet Domain
+- Many devices are connected to the Wi-Fi network.
+- A large number of connected devices increases the possible attack surface.
+- The router/network could be targeted by unauthorized users or attackers.
+Devices and Equipment Domain
+- There are many phones and electronic devices in the house.
+- Devices can be infected with malware.
+- Lost or stolen devices could expose personal information.
+Electrical/Power Domain
+- Extension boxes can become overloaded.
+- Generator and electrical equipment can cause fire or electrical accidents if not properly maintained.
+- Power fluctuations can damage electronic devices.
+People/Occupants Domain
+- People can accidentally expose information or make security mistakes.
+- The child in the house may accidentally damage equipment or interact with hazardous items.
+Access Control Domain
+- Fingerprint systems depend on the access-control equipment functioning properly.
+- Unauthorized access could occur if the system is compromised.
+Information/Data Domain
+- Important information is stored both physically and digitally.
+- Phones and laptops containing important files could be lost, stolen, or compromised.
+Physical Hazard Domain
+- Cooking gas can cause fire or explosion if there is a leak.
+- Water tanks and water systems can cause water damage if they develop leaks.
+4. CATEGORIZE THE VULNERABILITIES INTO ADMINISTRATIVE, TECHNICAL AND PHYSICAL PER DOMAIN
+DOMAIN	ADMINISTRATIVE	TECHNICAL	PHYSICAL
+Physical Security	Poor security procedures	CCTV/alarm failure	Doors, gates and windows
+Network/Internet	Poor password management	Router/Wi-Fi attacks	Router and network equipment
+Devices & Equipment	Poor device management	Malware and hacking	Theft or physical damage
+Electrical/Power	Poor maintenance practices	Power surge/electrical faults	Generator, cables and extension boxes
+People/Occupants	Lack of security awareness	Accidental exposure of information	Physical accidents
+Access Control	Poor access management	Fingerprint system failure	Unauthorized physical access
+Information/Data	Poor information handling	Malware/data theft	Theft or loss of devices/documents
+Physical Hazards	Poor safety practices	Equipment failure	Gas, water and electrical hazards
+
+
+5. IDENTIFY THE THREATS THAT CAN TAKE ADVANTAGE OF THE VULNERABILITIES AS RISKS
+Physical Security Domain
+- Threat: Burglary
+- Vulnerability: Doors, gates and windows can potentially be attacked.
+- Risk: Unauthorized persons may enter the house and steal property.
+Network/Internet Domain
+- Threat: Cyberattack
+- Vulnerability: Many devices are connected to the network.
+- Risk: Attackers could gain unauthorized access or steal information.
+Devices & Equipment Domain
+- Threat: Malware or theft
+- Vulnerability: Many devices contain personal information.
+- Risk: Personal data could be stolen or devices could be compromised.
+Electrical/Power Domain
+- Threat: Electrical fault or power surge
+- Vulnerability: Use of extension boxes and multiple power sources.
+- Risk: Fire, electrical damage or damage to equipment.
+People/Occupants Domain
+- Threat: Human error
+- Vulnerability: People can accidentally make security mistakes.
+- Risk: Information or property may be exposed.
+Access Control Domain
+- Threat: Unauthorized access
+- Vulnerability: Dependence on fingerprint access systems.
+- Risk: Someone could gain access if the system is compromised.
+Information/Data Domain
+- Threat: Data theft
+- Vulnerability: Important information is stored on phones and laptops.
+- Risk: Sensitive information could be lost or stolen.
+Physical Hazard Domain
+- Threat: Gas leakage/fire
+- Vulnerability: Cooking gas is used in the house.
+- Risk: Fire, explosion or injury.
+6. CATEGORIZE THE RISKS INTO CRITICAL, MAJOR AND MINOR
+CRITICAL RISKS
+1. Cooking gas leakage or explosion
+2. Fire caused by electrical faults
+3. Unauthorized access/burglary
+4. Major cyberattack resulting in loss of important information
+MAJOR RISKS
+1. Malware infection on phones or laptops
+2. Theft or loss of electronic devices
+3. Power surges damaging equipment
+4. Compromise of the Wi-Fi network
+5. Failure of the fingerprint access system
+MINOR RISKS
+1. Minor physical damage to electronic devices
+2. Water leakage from the water tank
+3. Accidental damage caused by occupants
+4. Temporary loss of internet connection
+7. MITIGATION MEASURES FOR CRITICAL AND MAJOR RISKS
+Critical Risk: Gas Leakage or Explosion
+Mitigation:
+- Regularly check the gas cylinder and connections for leaks.
+- Keep the cooking area properly ventilated.
+- Turn off the gas supply when it is not being used.
+- Keep flammable materials away from the gas area.
+Critical Risk: Electrical Fire
+Mitigation:
+- Avoid overloading extension boxes.
+- Regularly inspect electrical equipment and cables.
+- Use appropriate electrical protection devices.
+- Disconnect unnecessary appliances when not in use.
+Critical Risk: Burglary/Unauthorized Access
+Mitigation:
+- Maintain the CCTV and alarm system.
+- Regularly check the fingerprint locks.
+- Keep gates, doors and windows properly secured.
+- Review security recordings when necessary.
+Critical Risk: Major Cyberattack/Data Loss
+Mitigation:
+- Use strong passwords.
+- Keep phones and laptops updated.
+- Install security software where necessary.
+- Back up important files.
+- Avoid downloading files from unknown sources.
+Major Risk: Malware Infection
+Mitigation:
+- Keep devices and applications updated.
+- Avoid suspicious links and downloads.
+- Use trusted applications and security software.
+Major Risk: Device Theft
+Mitigation:
+- Keep phones and laptops secured.
+- Use screen locks and biometric protection.
+- Back up important information.
+- Enable device tracking where available.
+Major Risk: Power Surge
+Mitigation:
+- Use surge protection.
+- Avoid overloading extension boxes.
+- Disconnect sensitive devices during severe power fluctuations.
+Major Risk: Wi-Fi Compromise
+Mitigation:
+- Use a strong Wi-Fi password.
+- Change the password when necessary.
+- Keep the router firmware updated.
+- Do not share the Wi-Fi password with unauthorized people.
+Major Risk: Fingerprint System Failure
+Mitigation:
+- Regularly maintain the fingerprint system.
+- Ensure the system has a reliable power supply.
+- Have an alternative authorized access method in case of system failure.
