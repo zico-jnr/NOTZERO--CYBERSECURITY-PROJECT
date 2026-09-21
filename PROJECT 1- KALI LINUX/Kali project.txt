@@ -1,0 +1,37 @@
+Question 1: What ports are open?
+From the Nmap scans: The port opens are port 22, port 80,port 9929, and port 31337.
+
+
+Question 2: What services are running on the open ports?
+From the first Nmap scan:
+- 22 → SSH:  SSH is used 
+- 80 → HTTP
+- 9929 → nping-echo 
+- 31337 → Elite
+
+
+Question 3 — What operating system was detected?
+Your OS detection scan did not identify an exact operating system. It returned:
+No exact OS matches for host
+
+
+Question 4 — Were any vulnerabilities found?
+From the vulnerability scan, we cannot say that a vulnerability was found.
+The result reported was:
+http-sql-injection: ERROR: script execution failed
+So write:
+Answer: No confirmed vulnerability was identified from the result provided. The HTTP SQL injection script failed to execute, so it cannot be reported as a confirmed vulnerability.
+
+
+Question 5 — Which port is the riskiest and why?
+Based on the scan results: Port 31337 (Elite) can be considered the riskiest because it is an unusual high-numbered port with a service exposed to the network. An attacker may investigate the service further to determine what is running and whether it has any weaknesses.
+
+Question 6 — What would an attacker do next? 
+
+An attacker would investigate the open ports and services further, identify possible vulnerabilities, and try to determine whether any of the exposed services can be exploited.
+
+
+
+Question 7 — How can the system be secured?
+
+ The system can be secured by closing unnecessary ports, disabling unused services, using a firewall, keeping the system and services updated, using strong passwords, restricting access to unauthorized users, and regularly scanning the system for vulnerabilities

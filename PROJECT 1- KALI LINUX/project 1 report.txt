@@ -1,0 +1,74 @@
+
+NOTZERO CYBERSECURITY PRACTICAL PROJECT
+
+PROJECT 1: END-TO-END RECONNAISSANCE AND SCANNING USING KALI LINUX
+
+
+
+ 1. Introduction
+
+This project involved performing reconnaissance and network scanning using Kali Linux. The main objective was to gather information about an authorized target, identify open ports and services, and analyze possible security concerns.
+
+The authorized target used for the practical was **scanme.nmap.org**.
+
+ 2. Tools and Commands Used
+
+The main tools and commands used were:
+
+- Kali Linux
+- Nmap
+- ip a
+- ip route
+- ping
+- nslookup
+- whois
+- ss -tuln
+
+The local IP address identified during the practical was **192.168.1.6**.
+
+Connectivity to the target was tested using ping, and the result showed **4 packets received with 0% packet loss**.
+
+3. Reconnaissance Results
+
+DNS reconnaissance using nslookup identified the IPv4 address of "scanme.nmap.org" as "45.33.32.156".
+
+WHOIS was also used to gather domain-related information about the authorized target.
+
+ 4. Nmap Scanning Results
+
+Nmap scanning identified the following open TCP ports:
+
+| Port | Service |
+|---|---|
+| 22 | SSH |
+| 80 | HTTP |
+| 9929 | nping-echo |
+| 31337 | Elite |
+
+Port **25/tcp** was reported as filtered, while **443/tcp** was closed during the specific port scan.
+
+Service detection, OS detection and aggressive scanning were also performed. The OS detection scan did not provide an exact operating-system match.
+
+A vulnerability scan was performed using Nmap's vulnerability scripts. An `http-sql-injection` script produced an execution error, so **no SQL injection vulnerability was confirmed**.
+
+5. Security Analysis
+
+The scan showed that several services were exposed to network connections. Open ports are not automatically vulnerabilities, but unnecessary exposed services can increase the attack surface of a system.
+
+The unusual service found on port **31337** would require further investigation to determine whether it is necessary and properly secured.
+
+Recommended security measures include:
+
+- Close unnecessary ports.
+- Disable unused services.
+- Use a firewall to restrict access.
+- Keep systems and services updated.
+- Use strong authentication.
+- Restrict SSH access to authorized users.
+- Perform regular vulnerability scans.
+
+6. Conclusion
+
+This practical helped me understand how reconnaissance and network scanning are performed using Kali Linux and Nmap. I learned how to identify network information, perform DNS and WHOIS reconnaissance, discover open ports and services, and analyze scan results.
+
+The practical also showed that an open port does not automatically mean a system has been compromised, but exposed services should be reviewed and properly secured.
